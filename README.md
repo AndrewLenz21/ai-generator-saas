@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-GENERATOR-SAAS
+![ai-generator-saas](https://github.com/AndrewLenz21/ai-generator-saas/assets/124147096/da43b8a8-6ff2-40d0-a2ea-8831817c7959)
 
-## Getting Started
+## Using AI to turn your prompt into a different things
+![saasgen1](https://github.com/AndrewLenz21/ai-generator-saas/assets/124147096/1e4948f6-83c4-43ee-9b4e-fbcabfee2a2b)
 
-First, run the development server:
+### Our Dependencies
+- ShadCN
+- OpenAI
+- Replicate (AI for audio and video)
+- Clerk (for authentication)
+- Stripe
+- Prisma
+- Zustand
+- Axios
+- React-markdown
+- Crisp (Real Chat Assistant)
+- Type-writer
+- React-hot-toast
+---
+### EXAMPLE
+![saasgen2](https://github.com/AndrewLenz21/ai-generator-saas/assets/124147096/3423724e-3b64-451e-ba1c-84fa56f88e95)
 
-```bash
+### TO START PROJECT
+Configure your .env keys with Clerk, OpenAI, Replicate AI, Prisma, Planet Scale and Stripe
+
+``` cmd
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
